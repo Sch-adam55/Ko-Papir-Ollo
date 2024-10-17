@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/scissors"
+        android:id="@+id/Ollo"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paper"
+        android:id="@+id/Papir"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rock"
+        android:id="@+id/Ko"/>
+
+
+    <TextView
+        android:id="@+id/Eredmeny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eredmény"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/Jatekospont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Játékos pontja: 0"/>
+
+    <TextView
+        android:id="@+id/Geppont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Számítógép pontja: 0"/>
+
+    <Button
+        android:id="@+id/gombko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Kő" />
+
+    <Button
+        android:id="@+id/gombpapir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papír"/>
+
+    <Button
+        android:id="@+id/gombollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olló"/>
+</LinearLayout>
+
+
+
